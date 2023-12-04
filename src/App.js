@@ -45,7 +45,7 @@ function App() {
       </div>
       {result !== "" && (
         <div style={{ marginTop: 20, fontSize: 24, color: "teal" }}>
-          Result: {result}
+          Result:- {result}
         </div>
       )}
     </div>
