@@ -27,6 +27,7 @@ function App() {
   };
   return (
     <div className="App">
+      <h1>Extract Text From Image by Noble Bridge Technology</h1>
       <input type="file" onChange={onFileChange} />
       <select value={language} onChange={(e) => setLanguage(e.target.value)}>
         <option value="eng">English</option>
